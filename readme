@@ -14,3 +14,26 @@ The project “VEHICLE ACCIDENT ALERT SYSTEM” presents
 
 #software Requirements:
 Arduino IDE
+
+[2] An "Accident Detection and Reporting System" utilizing deep learning techniques. Central to this system is the VGG16 convolutional neural network (CNN) architecture, known for its robustness in image processing tasks. The system processes real-time video feeds from dashboard cameras, using the VGG16 model to detect accidents with high accuracy. The model, pre-trained on a large dataset and further fine-tuned for the specific task of accident detection, serves as the core of the detection mechanism. The process involves several stages: image preprocessing to enhance the quality of video frames, feature extraction to identify critical elements within the frames, and classification to determine whether an accident has occurred.
+
+Upon detecting an accident, the system employs an automated reporting protocol using Twilio software. This protocol promptly sends crucial information such as the accident’s location, time, and severity to emergency services, ensuring a rapid response. The integration of these components ensures that the system is not only capable of detecting accidents accurately but also of facilitating immediate emergency response, which is critical for improving outcomes in traffic incidents.
+
+an "Accident Detection and Reporting System" utilizing deep learning techniques. Central to this system is the VGG16 convolutional neural network (CNN) architecture, known for its robustness in image processing tasks. The system processes real-time video feeds from dashboard cameras, using the VGG16 model to detect accidents with high accuracy. The model, pre-trained on a large dataset and further fine-tuned for the specific task of accident detection, serves as the core of the detection mechanism. The process involves several stages: image preprocessing to enhance the quality of video frames, feature extraction to identify critical elements within the frames, and classification to determine whether an accident has occurred.
+
+Upon detecting an accident, the system employs an automated reporting protocol using Twilio software. This protocol promptly sends crucial information such as the accident’s location, time, and severity to emergency services, ensuring a rapid response. The integration of these components ensures that the system is not only capable of detecting accidents accurately but also of facilitating immediate emergency response, which is critical for improving outcomes in traffic incidents.
+
+Requirements:
+Download and install Anaconda Distribution.
+Create account in Twilio which provides paid programmable communication tools, we can also use 7-days free trail.
+
+Procedure:
+1.Download the files and extract it in "C:\Users\Admin" path.
+2.Launch Jupyter notebook from anaconda Navigator.
+3.Open the folder in Jupyter notebook.
+4.Create Account in Twilio.
+5.Get virtual phone number, account sid and auth token for your Twilio account.
+6.Enter those details in "Accident Detection-Video.ipynb" program file.
+7.Also enter the phone number which you have to send the SMS.
+8.Now, Run the code.
+
