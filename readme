@@ -1,1 +1,15 @@
-The project “VEHICLE ACCIDENT ALERT SYSTEM” presents Anti-Sleep Alarm for Drivers Using IR Glasses, Arduino, Buzzer Relay Module, etc. the design and implementation of a system aimed at preventing accidents caused by driver drowsiness. The proposed solution integrates infrared (IR) glasses to monitor the driver's eye movements, an Arduino microcontroller for processing data, and a buzzer relay module to provide auditory alerts. The IR glasses detect eyelid closures, signaling potential sleep episodes. These signals are sent to the Arduino, which analyzes the data in real-time. Upon detecting prolonged eye closure, the system triggers the buzzer relay module, emitting a loud sound to wake the driver and if the driver still closes his eyes, then based on the code given to Arduino the vehicle will stop. 
+The project “VEHICLE ACCIDENT ALERT SYSTEM” presents 
+[1]Anti-Sleep Alarm for Drivers Using IR Glasses, Arduino, Buzzer Relay Module, etc. the design and implementation of a system aimed at preventing accidents caused by driver drowsiness. The proposed solution integrates infrared (IR) glasses to monitor the driver's eye movements, an Arduino microcontroller for processing data, and a buzzer relay module to provide auditory alerts. The IR glasses detect eyelid closures, signaling potential sleep episodes. These signals are sent to the Arduino, which analyzes the data in real-time. Upon detecting prolonged eye closure, the system triggers the buzzer relay module, emitting a loud sound to wake the driver and if the driver still closes his eyes, then based on the code given to Arduino the vehicle will stop. 
+
+#Hardware Requirements:
+1. Arduino nano
+2. IR sensor glasses
+3. Buzzer
+4. Relay moduelu
+5. Switch
+6. Rc motor
+7. Battries
+8. Jumper wires
+
+#software Requirements:
+Arduino IDE
